@@ -1,6 +1,6 @@
 .Love {
     display: flex;
     align-items: center;
-    margin-left: auto;
+    /* margin-left: auto; */
     gap: 25px;
 }

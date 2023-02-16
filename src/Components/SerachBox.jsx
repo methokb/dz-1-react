@@ -6,7 +6,7 @@ const SerachBox = () => {
         <div className='SearchBox' style={{
             marginLeft: "55px"
         }}>
-            <input type="text" placeholder='Search for minimalist chair'  />
+            <input type="text" placeholder='Search for minimalist chair' />
             <img src={svgSearch} alt="search" style={{
                 transform: "translateX(-460px) translateY(4px)"
             }} />

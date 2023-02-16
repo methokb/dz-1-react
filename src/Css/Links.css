@@ -1,23 +1,29 @@
+.Links {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
 .LinksParent {
     display: flex;
     align-items: center;
-    gap: 45px;
+    gap: 60px;
 }
 
-.LinkBold {
+/* .LinkBold {
     font-weight: 700;
     font-size: 24px;
     line-height: 29px;
     color: #000000;
-}
+} */
 
 .LinksParent li {
     font-weight: 500;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 150%;
     color: #3A3A3A;
 }
-body{
+/* body{
     background: #FCF8F3;
     
-}
+} */

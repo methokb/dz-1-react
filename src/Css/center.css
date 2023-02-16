@@ -1,76 +1,77 @@
 .center_block {
-    margin-top: -600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-
-.end {
-    left: 30px;
+.imgCenter {
+    display: flex;
+    gap: 50px;
     position: relative;
 }
 
-.center {
-    height: 553px;
-    width: 494px;
-    left: 102px;
-    top: -600px;
-    border-radius: 0px;
-    position: relative;
+.modal {
+    position: absolute;
+    bottom: -5px;
+    left: 117px;
     background: #FFFFFFB8;
-
+    height: 552px;
+    width: 480px;
+    padding: 50px;
+    font-family: sans-serif;
 }
 
 .text {
     color: rgb(116, 106, 106);
-    text-align: center;
-    position: relative;
-    top: -1090px;
-    left: -390px;
-    font-style: normal;
+    text-align: left;
     font-weight: 700;
     font-size: 56px;
     line-height: 120%;
-
 }
 
 .text_p1 {
-    text-align: center;
-    position: relative;
-    top: -1070px;
-    left: -390px;
+    text-align: left;
     color: rgb(113, 113, 100);
+    width: 357px;
+    height: 90px;
 }
 
 .btn {
     height: 78px;
     width: 334px;
-    left: 189px;
-    top: -1006px;
-    border-radius: 0px;
     background: #E89F71;
     color: white;
     border-radius: 5px;
     border: none;
-    position: relative;
+    font-size: 20px;
+    line-height: 150%;
 }
 
 .p_block01 {
-    height: 148px;
+    position: absolute;
     width: 294px;
-    left: 1008px;
-    top: -1086px;
-    border-radius: 0px;
-    background: #FFFFFFB8;
-    text-align: end;
-    position: relative;
+    height: 148px;
+    background-color: rgba(255, 255, 255, 0.72);
+    right: 0;
+    bottom: 100px;
 }
-.from{
-    left: 60px;
-    position: relative;     
+
+.text_h1 {
+    /* position: relative;
+    top: -154px;
+    left: 393px; */
+    line-height: 60px;
+    text-align: left;
+    transform: translateX(15px);
+    
 }
-.text_h1{
-            color: rgb(45, 36, 36);
-            text-align: center;
-            top: -1200px;
-            position: relative;
-            left: 400px;
-            line-height: 30px;
+
+.text_h {
+    text-align: center;
+    /* position: relative;
+    top: -154px;
+    left: 393px; */
+    color: #616161;
+    text-align: left;
+    transform: translateX(15px);
+
 }
